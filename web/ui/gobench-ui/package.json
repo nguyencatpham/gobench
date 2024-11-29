@@ -3,6 +3,10 @@
   "author": "verik",
   "version": "1.1.0",
   "private": true,
+  "engines" : { 
+    "yarn" : ">=1.22.0 <2.0.0",
+    "node" : ">=14.0.0 <16.0.0"
+  },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
